@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills • Anvi-Dev</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="gradient-film" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark"></div>
+        <span>anvi-dev</span>
+      </div>
+      <nav style="display:flex; gap:18px; align-items:center;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html" class="pill">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container">
+    <section>
+      <div class="section-title">
+        <div class="bar"></div>
+        <h2 style="margin:0;">Skills</h2>
+      </div>
+
+      <!-- AWS & Cloud -->
+      <div class="card" style="padding:24px; margin-bottom:20px;">
+        <h3>AWS & Cloud</h3>
+        <p>VPC, EC2, ALB, ASG, RDS, EFS, S3, CloudFront, Route 53, IAM, CloudWatch, Terraform</p>
+      </div>
+
+      <!-- DevOps & Automation -->
+      <div class="card" style="padding:24px; margin-bottom:20px;">
+        <h3>DevOps & Automation</h3>
+        <p>Linux, Git, Bash, GitHub Actions, Jenkins, Docker, Kubernetes (Pods, Services, Deployments), CI/CD Pipelines</p>
+      </div>
+
+      <!-- Networking & Security -->
+      <div class="card" style="padding:24px; margin-bottom:20px;">
+        <h3>Networking & Security</h3>
+        <p>DNS, SSL/TLS, VPNs, IAM roles/policies</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container" style="display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;">
+      <nav style="display:flex; gap:18px; flex-wrap:wrap; justify-content:center;">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="/assets/Anvesh_Shetty_TechSupport_Resume(1).pdf">Resume</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div>© <span id="year"></span> Anvesh Shetty • Built with ♥ and glass</div>
+    </div>
+  </footer>
+
+  <!-- Accent Picker -->
+  <div class="accent-picker" title="Pick accent color">
+  <button class="toggle" aria-label="Toggle accent picker">
+    <img src="assets/palette-icon.png" alt="Pick accent color" />
+  </button>
+  <div class="swatches">
+    <button class="swatch" style="background:#00e5ff" data-accent="#00e5ff" aria-label="Cyan"></button>
+    <button class="swatch" style="background:#7c5cff" data-accent="#7c5cff" aria-label="Indigo"></button>
+    <button class="swatch" style="background:#00ff85" data-accent="#00ff85" aria-label="Mint"></button>
+    <button class="swatch" style="background:#ff5c9a" data-accent="#ff5c9a" aria-label="Pink"></button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

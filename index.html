@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anvesh Shetty • Portfolio</title>
+  <meta name="description" content="Portfolio of Anvesh Sadashiv Shetty — Cloud & DevOps Engineer with glassmorphism design." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="gradient-film" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header>
+  <div class="container nav">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <span>anvi-dev</span>
+    </div>
+    <nav style="display:flex; gap:18px; align-items:center;">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <h1>Hi, I’m <span style="color:var(--accent);">Anvesh Shetty</span> — building reliable web & cloud experiences</h1>
+        <p class="lead">Tech Support → DevOps. I turn ideas into fast, secure, and scalable apps. Passionate about AWS, CI/CD, and clean UI.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="mailto:sadashivas51@gmail.com">Email Me</a>
+          <a class="btn" href="/assets/Anvesh_Shetty_TechSupport_Resume(1).pdf" download>Download Resume</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+  <div style="display:flex; align-items:center; gap:12px;">
+    <div class="brand-mark" style="width:36px; height:36px;"></div>
+    <div>
+      <div style="font-weight:700;">Cloud & DevOps Engineer</div>
+      <div style="color:var(--muted); font-size:13px;">
+        AWS • DevOps • Docker • Kubernetes • CI/CD • Git • Linux • Terraform • Python • Monitoring (CloudWatch, Prometheus, Grafana)
+      </div>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="num">AWS</div>
+      <div class="label">Certified (Solution Architect)</div>
+    </div>
+    <div class="stat">
+      <div class="num">2+</div>
+      <div class="label">Years of Experience in Tech Support</div>
+    </div>
+    <div class="stat">
+      <div class="num">DevOps</div>
+      <div class="label">Docker • CI/CD • Kubernetes</div>
+    </div>
+</aside>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-title">
+        <div class="bar"></div>
+        <h2 style="margin:0;">Featured Projects</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Auto-Scaling Web App on AWS</h3>
+          <p>VPC with public/private subnets, ALB, ASG, RDS, EFS, CloudFront, Route 53 — built for resilience and speed.</p>
+        </article>
+        <article class="card">
+          <h3>CI/CD Pipeline</h3>
+          <p>GitHub Actions → Docker → ECS. Blue/Green releases, health checks, and zero-downtime deploys.</p>
+        </article>
+        <article class="card">
+          <h3>Website & Email Troubleshooting</h3>
+          <p>DNS, SSL/TLS, mail deliverability (SPF/DKIM/DMARC) — faster load times and reliable inbox placement.</p>
+        </article>
+        <article class="card">
+          <h3>Observability Dashboard</h3>
+          <p>CloudWatch + Grafana metrics & alerts to spot issues before users do.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-title">
+        <div class="bar"></div>
+        <h2 style="margin:0;">Skills</h2>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3>AWS & Infra</h3>
+          <p>VPC, EC2, ALB, ASG, RDS, EFS, S3, CloudFront, Route 53, IAM, CloudWatch</p>
+        </div>
+        <div class="card">
+          <h3>DevOps</h3>
+          <p>Git, GitHub Actions, Docker, Linux, NGINX/Apache, CI/CD, IaC (Terraform basics)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-title">
+        <div class="bar"></div>
+        <h2 style="margin:0;">Let’s Connect</h2>
+      </div>
+      <div style="display:flex; gap:14px; flex-wrap:wrap;">
+  <a class="pill" href="mailto:sadashivas51@gmail.com">Email Me</a>
+  <a class="pill" href="about.html">Read More → About Me</a>
+  <a class="pill" href="/assets/Anvesh_Shetty_TechSupport_Resume(1).pdf" download>📄 Download Resume</a>
+  <a class="pill" href="projects.html">View My Projects</a>
+</div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="container" style="display:flex; flex-direction:column; align-items:center; gap:12px; text-align:center;">
+    <nav style="display:flex; gap:18px; flex-wrap:wrap; justify-content:center;">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div>© <span id="year"></span> Anvesh Shetty • Built with ♥ and glass</div>
+  </div>
+</footer>
+
+
+  <!-- Accent color quick-picker -->
+  <!-- Accent color quick-picker -->
+<!-- Accent color quick-picker -->
+<div class="accent-picker" title="Pick accent color">
+  <button class="toggle" aria-label="Toggle accent picker">
+    <img src="assets/palette-icon.png" alt="Pick accent color" />
+  </button>
+  <div class="swatches">
+    <button class="swatch" style="background:#00e5ff" data-accent="#00e5ff" aria-label="Cyan"></button>
+    <button class="swatch" style="background:#7c5cff" data-accent="#7c5cff" aria-label="Indigo"></button>
+    <button class="swatch" style="background:#00ff85" data-accent="#00ff85" aria-label="Mint"></button>
+    <button class="swatch" style="background:#ff5c9a" data-accent="#ff5c9a" aria-label="Pink"></button>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
